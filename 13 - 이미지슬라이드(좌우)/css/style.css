@@ -62,15 +62,15 @@ header > .menu {
     position: absolute;
 }
 .slide .slider p:first-child{
-    top: 0;
+    left: 0;
 }
 
 .slide .slider p:nth-child(2){
-    top: 300px;
+    left: 1200px;
 }
 
 .slide .slider p:nth-child(3){
-    top: 600px;
+    left: 2400px;
 }
 
 
