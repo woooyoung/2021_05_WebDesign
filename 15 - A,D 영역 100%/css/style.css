@@ -21,7 +21,11 @@ a {
 
 /*cus*/
 /*main-page 시작*/
-.main-page{
+
+body{
+    width: 100%;
+}
+.main-page {
     margin-left: auto;
     margin-right: auto;
     width: 1200px;
@@ -31,52 +35,33 @@ a {
 
 /*main-page 끝*/
 /*header*/
-header{
+header {
     width: 100%;
+/*
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+*/
     height: 100px;
     background-color: pink;
 }
-header > .logo{
+
+header .logo {
     float: left;
     width: 250px;
     height: 100px;
-    background-color: #999;
 }
-header > .menu {
+
+header .menu {
     float: left;
     width: 950px;
     height: 100px;
-    background-color: #888;
 }
+
 /*slide*/
 .slide {
     height: 300px;
-/*    overflow: hidden;*/
+    background-color: #777;
 }
-
-.slide .slider {
-    position: relative;
-}
-
-.slide .slider p{
-    margin: 0;
-    padding: 0;
-    position: absolute;
-}
-/*
-.slide .slider p:first-child{
-    left: 0;
-}
-
-.slide .slider p:nth-child(2){
-    left: 1200px;
-}
-
-.slide .slider p:nth-child(3){
-    left: 2400px;
-}
-*/
-
 
 /*contents*/
 .contents > div {
@@ -84,6 +69,7 @@ header > .menu {
     height: 200px;
     float: left;
 }
+
 .contents > .notice {
     background-color: #666;
 }
@@ -91,28 +77,36 @@ header > .menu {
 .contents > .banner {
     background-color: #555;
 }
+
 .contents > .shortcut {
     background-color: #444;
 }
+
 /*footer*/
-footer{
-    
+footer {
+    width: 100%;
+/*
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+*/
+    height: 100px;
+    background-color: pink;
 }
-footer > .foot-logo{
+
+footer .foot-logo {
     float: left;
     width: 250px;
     height: 100px;
-    background-color: #333;
 }
-footer > .copyright{
+
+footer .copyright {
     float: left;
     width: 700px;
     height: 100px;
-    background-color: #888;
 }
-footer > .sns{
+
+footer .sns {
     float: left;
     width: 250px;
     height: 100px;
-    background-color: #999;
 }
